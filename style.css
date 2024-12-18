@@ -158,3 +158,15 @@ z-index: 100;
 .home-sci a:hover::before{
     width: 100%;
 }
+.img-container{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    
+}
+
+.img-container img{
+    border-radius: 50%;
+    
+}
