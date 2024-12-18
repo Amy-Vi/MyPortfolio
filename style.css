@@ -171,3 +171,15 @@ z-index: 100;
     border-radius: 50%;
     
 }
+
+.about{
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+}
+
+.about p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
