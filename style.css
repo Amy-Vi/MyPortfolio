@@ -128,6 +128,7 @@ nav ul li a:hover{
     width: 170px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 .home-sci a{
     position: relative;
@@ -177,7 +178,7 @@ nav ul li a:hover{
 }
 
 .about{
-margin-top: 15%;
+margin-top: ;
 top: 0;
 left: 0;
 width: 100%;
@@ -192,7 +193,7 @@ padding: 20px 10%;
     font-weight: 700;
     line-height: 1.2;
     white-space: nowrap;
-    text-decoration: underline;
+    
 }
 
 .about-content p{
