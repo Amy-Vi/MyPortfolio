@@ -54,6 +54,7 @@ z-index: 100;
     font-size: 53px;
     font-weight: 700;
     line-height: 1.2;
+    white-space: nowrap;
 }
 .home-content h3{
     font-size: 32px;
@@ -163,7 +164,7 @@ z-index: 100;
     max-width: 400px;
     height: auto;
     display: flex;
-    
+    margin-left: 10%;
 }
 
 .img-container img{
