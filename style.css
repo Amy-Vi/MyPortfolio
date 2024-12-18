@@ -6,23 +6,23 @@
 }
 body{
     background-image: url(images/background2.JPG);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #3a90ff;
 }
 
 header{
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-padding: 20px 10%;
-background-color: transparent;
-display: flex;
-justify-content: space-between;
-align-items: center;
-z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
 .logo{
@@ -31,6 +31,8 @@ z-index: 100;
     text-decoration: none;
     font-weight: 600;
 }
+
+
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -43,13 +45,14 @@ nav ul li a{
     font-weight: 500;
     margin-left: 35px;
     transition: 0.15s;
-    transition: transform 0.2s ease;
+    
 }
 nav ul li a:hover{
     color: green;
+    transform: scale(1.1); 
 }
 nav ul li a:active{
-    transform: scale(1.1) !important; 
+   
 }
 
 .home{
@@ -104,10 +107,9 @@ nav ul li a:active{
 .btn-box a:hover{
     color: green;
     border: 2px solid green;
-}
-.btn-box a:active{
     transform: scale(1.1);
 }
+
 /*.btn-box a:nth-child(2){
     background: transparent;
     color: blue;
@@ -158,11 +160,13 @@ nav ul li a:active{
     z-index: 1;
     overflow: hidden;
 }
-/*.home-sci a:hover{
-    color: #081b29;
+.home-sci a:hover{
+    color: green;
+    transform: scale(1.1);
+    border: 2px solid green;
 }
 
-.home-sci a::before{
+/*.home-sci a::before{
     content: '';
     position: absolute;
     top: 0;
