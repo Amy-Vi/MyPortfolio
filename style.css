@@ -5,8 +5,11 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: #081b29;
-    color: #ededed;
+    background-image: url(images/background2.JPG);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+    color: #3a90ff;
 }
 
 header{
@@ -24,7 +27,7 @@ z-index: 100;
 
 .logo{
     font-size: 25px;
-    color: #ededed;
+    color: green;
     text-decoration: none;
     font-weight: 600;
 }
@@ -35,15 +38,20 @@ nav ul li{
 
 nav ul li a{
     font-size: 18px;
-    color: #ededed;
+    color: #3a90ff;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
     transition: 0.15s;
+    transition: transform 0.2s ease;
 }
 nav ul li a:hover{
-    color: blue;
+    color: green;
 }
+nav ul li a:active{
+    transform: scale(1.1) !important; 
+}
+
 .home{
     height: 100vh;
     display: flex;
@@ -63,7 +71,7 @@ nav ul li a:hover{
 .home-content h3{
     font-size: 32px;
     font-weight: 700;
-    color: blue;
+    color: green;
 }
 .home-content p{
     font-size: 16px;
@@ -82,11 +90,11 @@ nav ul li a:hover{
     align-items: center;
     width: 150px;
     height: 100%;
-    background: blue;
-    border: 2px solid blue;
+    background: #FEFCFF;
+    border: 2px solid #3a90ff;
     border-radius: 8px;
     font-size: 19px;
-    color: #081b29;
+    color: #3a90ff;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -94,9 +102,13 @@ nav ul li a:hover{
     overflow: hidden;
 }
 .btn-box a:hover{
-    color: blue;
+    color: green;
+    border: 2px solid green;
 }
-.btn-box a:nth-child(2){
+.btn-box a:active{
+    transform: scale(1.1);
+}
+/*.btn-box a:nth-child(2){
     background: transparent;
     color: blue;
 }
@@ -121,7 +133,7 @@ nav ul li a:hover{
 
 .btn-box a:hover::before{
     width: 100%;
-}
+}*/
 .home-sci{
     position: absolute;
     bottom: 40px;
@@ -138,15 +150,15 @@ nav ul li a:hover{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid blue;
+    border: 2px solid #3a90ff;
     border-radius: 50%;
     font-size: 20px;
-    color: blue;
+    color: #3a90ff;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
 }
-.home-sci a:hover{
+/*.home-sci a:hover{
     color: #081b29;
 }
 
@@ -163,7 +175,7 @@ nav ul li a:hover{
 }
 .home-sci a:hover::before{
     width: 100%;
-}
+}*/
 .img-container{
     width: 100%;
     max-width: 400px;
@@ -173,7 +185,7 @@ nav ul li a:hover{
 }
 
 .img-container img{
-    border-radius: 50%;
+    border-radius: 10%;
     
 }
 
