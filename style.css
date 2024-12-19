@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-image: url(images/background2.JPG);
+    /*background-image: url(images/background2.JPG);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,7 +18,8 @@ header{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background-color: transparent;
+    /*background-color: transparent;*/
+    background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,14 +46,12 @@ nav ul li a{
     font-weight: 500;
     margin-left: 35px;
     transition: 0.15s;
+    display: inline-block;
     
 }
 nav ul li a:hover{
     color: green;
     transform: scale(1.1); 
-}
-nav ul li a:active{
-   
 }
 
 .home{
@@ -79,6 +78,9 @@ nav ul li a:active{
 .home-content p{
     font-size: 16px;
     margin: 20px 0 40px;
+}
+.home-content p b{
+    color: green;
 }
 .home-content .btn-box{
     display: flex;
@@ -110,32 +112,6 @@ nav ul li a:active{
     transform: scale(1.1);
 }
 
-/*.btn-box a:nth-child(2){
-    background: transparent;
-    color: blue;
-}
-.btn-box a:nth-child(2):hover{
-    color: #081b29;
-}
-.btn-box a:nth-child(2)::before{
-    background-color: blue;
-}
-
-.btn-box a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #081b29;
-    z-index: -1;
-    transition: 2s;
-}
-
-.btn-box a:hover::before{
-    width: 100%;
-}*/
 .home-sci{
     position: absolute;
     bottom: 40px;
@@ -165,21 +141,6 @@ nav ul li a:active{
     transform: scale(1.1);
     border: 2px solid green;
 }
-
-/*.home-sci a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: blue;
-    z-index: -1;
-    transition: 2s;
-}
-.home-sci a:hover::before{
-    width: 100%;
-}*/
 .img-container{
     width: 100%;
     max-width: 400px;
@@ -192,16 +153,14 @@ nav ul li a:active{
     border-radius: 10%;
     
 }
-
 .about{
-margin-top: ;
 top: 0;
 left: 0;
 width: 100%;
 padding: 20px 10%;
 }
 .about-content{
-    max-width: 650px;
+    
 }
 
 .about-content h2{
@@ -209,18 +168,105 @@ padding: 20px 10%;
     font-weight: 700;
     line-height: 1.2;
     white-space: nowrap;
+    display: flex;
+    justify-content: center;  
+}
+
+.key-w{
+    display: flex;
+    font-size: 20px;
+    margin-top: 7%;
+    white-space: nowrap;
+    gap: 20px 50px;
+    flex-wrap: wrap;
+
+}
+
+.motivated{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px;  
+}
+
+.fast-learner{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
     
 }
 
-.about-content p{
-    font-size: 16px;
-    margin: 20px 0 40px;
-    line-height: 2;
+.team-player{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
 }
 
-.about-content .btn-box{
-    display: flex;
-    justify-content: space-between;
-    width: 345px;
-    height: 50px;
+.team-player{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
+   
+}
+
+.problem-solver{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
+    
+}
+
+.detail-oriented{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
+    
+}
+
+.creative{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
+    
+}
+
+.result-driven{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
+    
+}
+
+.communicative{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
+    
+}
+
+.passionate{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
+    
+}
+
+.adaptable{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
+    
+}
+
+.positive{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
+    
+}
+
+.helpful{
+    border: 3px solid rgb(255, 167, 255);
+    border-radius: 7px;
+    padding: 3px 5px; 
+    
 }
