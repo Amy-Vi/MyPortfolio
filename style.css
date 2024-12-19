@@ -163,7 +163,7 @@ padding: 20px 10%;
     
 }
 
-.about-content h2{
+.skills-content h2{
     font-size: 53px;
     font-weight: 700;
     line-height: 1.2;
@@ -172,101 +172,6 @@ padding: 20px 10%;
     justify-content: center;  
 }
 
-.key-w{
-    display: flex;
-    font-size: 20px;
-    margin-top: 7%;
-    white-space: nowrap;
-    gap: 20px 50px;
-    flex-wrap: wrap;
 
-}
 
-.motivated{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px;  
-}
 
-.fast-learner{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-    
-}
-
-.team-player{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-}
-
-.team-player{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-   
-}
-
-.problem-solver{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-    
-}
-
-.detail-oriented{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-    
-}
-
-.creative{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-    
-}
-
-.result-driven{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-    
-}
-
-.communicative{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-    
-}
-
-.passionate{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-    
-}
-
-.adaptable{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-    
-}
-
-.positive{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-    
-}
-
-.helpful{
-    border: 3px solid rgb(255, 167, 255);
-    border-radius: 7px;
-    padding: 3px 5px; 
-    
-}
