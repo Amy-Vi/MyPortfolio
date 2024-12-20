@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+
+
 body{
     /*background-image: url(images/background2.JPG);*/
     background-size: cover;
@@ -198,9 +201,12 @@ padding: 20px 10%;
     justify-content: space-between;
     padding: 20px 10%;
     margin-top: 30px;
-    gap: 45px;
+    gap: 100px;
+    margin-left: 8%;
+    
 }
 .soft-icons img{
     width: 100px; 
     height: 100px;
+    
 }
