@@ -6,9 +6,10 @@
 }
 
 body {
-  background: #fff;
+  background: #081b29;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: #3a90ff;
+  /*color: #3a90ff;*/
+  color: #fff;
 }
