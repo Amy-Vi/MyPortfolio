@@ -1,0 +1,40 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    }
+
+.logo {
+    font-size: 25px;
+    color: #b16eff;
+    text-decoration: none;
+    font-weight: 600;
+    font-weight: bold;
+    }
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    }
+
+nav ul li a {
+    font-size: 18px;
+    color: #3a90ff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.15s;
+    display: inline-block;
+    }
+
+nav ul li a:hover {
+    color: #b16eff;
+    transform: scale(1.1);
+    }

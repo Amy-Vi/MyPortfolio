@@ -1,0 +1,52 @@
+.slills {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    }
+
+.skills-content h2 {
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    }
+
+.icons-container {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    margin-top: 30px;
+    gap: 45px;
+    }
+
+.icons-container img {
+    width: 100px;
+    height: 100px;
+    }
+
+.h2-sk {
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    }
+
+    .soft-icons {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    margin-top: 30px;
+    gap: 100px;
+    margin-left: 8%;
+    }
+
+.soft-icons img {
+    width: 100px;
+    height: 100px;
+    }
