@@ -90,8 +90,49 @@
     align-self: center;
 }*/
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tech-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px 10%;
+    text-align: center;
+    color: #081b29;
+    
+}
 .box img{
     width: 100px;
     height: 100px; 
 }
 
+.heading{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.tech-skills .wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    
+}
+
+.wrapper .box{
+    padding: 30px 20px;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 13px;
+    width: 300px
+    gap: 20px;
+
+}
+
+.box h4{
+    font-size: 18x;
+}
