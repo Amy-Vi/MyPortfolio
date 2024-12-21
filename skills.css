@@ -52,4 +52,41 @@
     width: 100px;
     height: 100px;
     }
+.positive-icon p{
+    justify-self: center;
+    align-self: center;
+}
+        
+.creative-icon p{
+    justify-self: center;
+    align-self: center;
+}
+        
+.mastery-icon p{
+    justify-self: center;
+    align-self: center;
+}
+        
+.time-icon p{
+    justify-self: center;
+    align-self: center;
+}
+        
+.multitasking-icon p{
+    justify-self: center;
+    align-self: center;
+}
+
+.coffee-web p{
+    justify-self: center;
+    align-self: center;
+}
+.tour-web p{
+    justify-self: center;
+    align-self: center;
+}
+.tartu-web p{
+    justify-self: center;
+    align-self: center;
+}
 
