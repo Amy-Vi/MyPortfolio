@@ -103,7 +103,8 @@
     min-height: 100vh;
     padding: 20px 10%;
     text-align: center;
-    color: #081b29;
+    color: #fff;
+    
     
 }
 .box img{
@@ -117,20 +118,20 @@
     color: #fff;
 }
 
-.tech-skills .wrapper{
+.tech-skills .wrapper1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    
+    /*gap: 20px;*/
+    border-radius: 13px;
+    overflow: hidden; 
 }
 
-.wrapper .box{
+.wrapper1 .box{
     padding: 30px 20px;
-    background: rgba(255, 255, 255, 0.2); 
-    border-radius: 13px;
-    width: 300px
+    
+    /*border-radius: 13px;*/
+    /*width: 300px*/
     gap: 20px;
-
 }
 
 .box h4{
