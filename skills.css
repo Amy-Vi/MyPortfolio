@@ -136,3 +136,15 @@
 .box h4{
     font-size: 18x;
 }
+
+@media screen and (max-width: 992px){
+    .tech-skills{
+        padding: 20px 5%;
+    }    
+}
+
+@media screen and (max-width: 350px){
+    .tech-skills .wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }    
+}
